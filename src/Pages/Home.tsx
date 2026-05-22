@@ -1,3 +1,5 @@
+import arabik from "../assets/arabik.jpeg";
+
 const Home = () => {
   return (
     <section
@@ -16,7 +18,7 @@ const Home = () => {
           <div className="flex-1 flex flex-col justify-center text-center lg:text-left">
 
             {/* Badge */}
-            <span className="inline-block border   px-5 py-2 rounded-full text-sm text-blue-900 shadow-sm animate-fade-up">
+            <span className="inline-block border px-5 py-2 rounded-full text-sm text-blue-900 shadow-sm animate-fade-up">
               Trusted UAE VAT & Corporate Tax Consultants
             </span>
 
@@ -36,7 +38,7 @@ const Home = () => {
                 </div>
 
                 <img
-                  src="src/assets/arabik.jpeg"
+                  src={arabik}
                   alt="Professional Consultant"
                   className="relative z-10 w-[280px] sm:w-[320px] h-[420px] object-cover object-top rounded-[32px] shadow-2xl animate-float"
                 />
@@ -98,7 +100,7 @@ const Home = () => {
               </div>
 
               <img
-                src="src/assets/arabik.jpeg"
+                src={arabik}
                 alt="Professional Consultant"
                 className="
                   relative z-10
@@ -120,7 +122,7 @@ const Home = () => {
 
       </div>
 
-      {/* ✅ ANIMATION STYLES */}
+      {/* ANIMATIONS */}
       <style>{`
         .animate-fade-up {
           opacity: 0;
